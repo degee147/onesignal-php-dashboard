@@ -22,14 +22,9 @@
 				<input type="hidden" name="sendafter" value="true">
                     <ul>
                         <li>
-                            <input name="title" type="text" id="input" placeholder="(Title) - max 50 character" maxlength="50" required>
+                            <input name="feed" type="url" id="input" placeholder="RSS Feed Url" maxlength="50" required>
                         </li>
-                        <li>
-                            <textarea name="content" id="" cols="30" rows="5" placeholder="(Content) - max 125 characters" maxlength="125" required></textarea>
-                        </li>
-						<li>
-                            <input name="url" type="text" id="input" placeholder="URL" required>
-                        </li>
+                        
 						<li>
 							<input id="datetimepicker_dark" type="text" name="send_after" required>
                         </li>
@@ -124,7 +119,7 @@
 		  format: "YYYY-MM-DD HH:mm:00 ZZ",
 		  formatTime:'HH:mm',
 		  formatDate:'DD-MM-YYYY',
-		  minTime: moment().add(1, 'H').toDate(),
+		//   minTime: moment().add(1, 'H').toDate(),
 		  minDate: moment().add(1, 'H').toDate(),
 		  inline:true,
 		  useCurrent: true,

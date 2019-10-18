@@ -32,7 +32,7 @@ class OneSignal{
 		
 		$fields = array(
 			'app_id' => $this->app_id,
-			//'included_segments' => array('Active Users'),
+			'included_segments' => array('Active Users'),
 			'include_player_ids' => array( $userid ),
 			'contents' => $content,
 			'url' => $url,
@@ -75,7 +75,8 @@ class OneSignal{
 		
 		$fields = array(
 			'app_id' => $this->app_id,
-			'included_segments' => array('Active Users'),
+			'included_segments' => array('Active Users', 'Subscribed Users'),
+			// 'included_segments' => array('All'),
 			'contents' => $content,
 			'url' => $url,
 			'headings' => $heading,
@@ -117,13 +118,16 @@ class OneSignal{
 		
 		$fields = array(
 			'app_id' => $this->app_id,
-			'included_segments' => array('Active Users'),
+			'included_segments' => array('Active Users', 'Subscribed Users'),
+			// 'included_segments' => array('All'),
 			'contents' => $content,
 			'url' => $url,
 			'headings' => $heading,
 			'chrome_web_icon' => $this->api_logo,
 			'send_after' => $sendaft
 		);
+
+		
 		
 		$headers = array(
 			'Content-Type: application/json; charset=utf-8',
@@ -143,7 +147,17 @@ class OneSignal{
 		curl_setopt($ch, CURLOPT_SSL_VERIFYPEER, FALSE);
 
 		$response = curl_exec($ch);
+		// var_dump($response);
+		
+		$err = curl_error($ch);
+		// var_dump($err);
+		// die();
+
 		curl_close($ch);
+
+
+		// var_dump($response);
+		// die();
 		
 		return $response;
 	}	
@@ -180,9 +194,20 @@ if(isset($_POST['sendafter'])) {
 	
 		$on = new OneSignal($app_id, $auth_key, $api_logo);
 		$sendaft = $_POST['send_after'];
-		$title = $_POST['title'];
-		$content = $_POST['content'];
-		$url = $_POST['url'];
+		$feed = $_POST['feed'];
+
+		$xml = simplexml_load_string(file_get_contents($feed));
+		$json = json_encode($xml);
+		$array = json_decode($json,TRUE);
+		$title = $array['channel']['title'];
+		$content = $array['channel']['description'];
+		$url = $array['channel']['link'];
+
+		// var_dump($array['channel']['title']);
+		// die();
+		// $title = $_POST['title'];
+		// $content = $_POST['content'];
+		// $url = $_POST['url'];
 		$res = $on->sendAfter($title, $content, $url, $sendaft, $lang = 'en');
 
 		$book = json_decode($res, true);

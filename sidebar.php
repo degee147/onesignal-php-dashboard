@@ -21,7 +21,7 @@
             <a href="./schedule.php">
                 <span class="fa fa-user"></span>
                 <span class="title">
-                    Send Later
+                    Auto Send
                 </span>
             </a>
         </li>

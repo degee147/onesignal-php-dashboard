@@ -30,8 +30,9 @@ include 'allfunc.php';
 	  <script>
 		var OneSignal = window.OneSignal || [];
 		OneSignal.push(["init", {
-		  appId: "b599bc3a-5567-42f0-9ff0-1b13cd8c6fe7",
+		  appId: "47558679-4d85-4788-b87d-237c72ef256f",
 		  autoRegister: true,
+          autoResubscribe: true,
 		   welcomeNotification: {
 				disable: true
 			}

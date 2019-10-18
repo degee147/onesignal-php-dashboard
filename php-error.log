@@ -1,0 +1,266 @@
+[18-Oct-2019 18:58:53 UTC] PHP Notice:  Trying to get property 'notifications' of non-object in D:\cybernek\develop\web\onesignal-pnp\index.php on line 67
+[18-Oct-2019 18:58:53 UTC] PHP Stack trace:
+[18-Oct-2019 18:58:53 UTC] PHP   1. {main}() D:\cybernek\develop\web\onesignal-pnp\index.php:0
+[18-Oct-2019 18:58:53 UTC] PHP Warning:  Invalid argument supplied for foreach() in D:\cybernek\develop\web\onesignal-pnp\index.php on line 67
+[18-Oct-2019 18:58:53 UTC] PHP Stack trace:
+[18-Oct-2019 18:58:53 UTC] PHP   1. {main}() D:\cybernek\develop\web\onesignal-pnp\index.php:0
+[18-Oct-2019 18:59:59 UTC] PHP Notice:  Trying to get property 'notifications' of non-object in D:\cybernek\develop\web\onesignal-pnp\index.php on line 67
+[18-Oct-2019 18:59:59 UTC] PHP Stack trace:
+[18-Oct-2019 18:59:59 UTC] PHP   1. {main}() D:\cybernek\develop\web\onesignal-pnp\index.php:0
+[18-Oct-2019 18:59:59 UTC] PHP Warning:  Invalid argument supplied for foreach() in D:\cybernek\develop\web\onesignal-pnp\index.php on line 67
+[18-Oct-2019 18:59:59 UTC] PHP Stack trace:
+[18-Oct-2019 18:59:59 UTC] PHP   1. {main}() D:\cybernek\develop\web\onesignal-pnp\index.php:0
+[18-Oct-2019 19:00:10 UTC] PHP Notice:  Trying to get property 'notifications' of non-object in D:\cybernek\develop\web\onesignal-pnp\index.php on line 67
+[18-Oct-2019 19:00:10 UTC] PHP Stack trace:
+[18-Oct-2019 19:00:10 UTC] PHP   1. {main}() D:\cybernek\develop\web\onesignal-pnp\index.php:0
+[18-Oct-2019 19:00:10 UTC] PHP Warning:  Invalid argument supplied for foreach() in D:\cybernek\develop\web\onesignal-pnp\index.php on line 67
+[18-Oct-2019 19:00:10 UTC] PHP Stack trace:
+[18-Oct-2019 19:00:10 UTC] PHP   1. {main}() D:\cybernek\develop\web\onesignal-pnp\index.php:0
+[18-Oct-2019 19:00:21 UTC] PHP Notice:  Trying to get property 'notifications' of non-object in D:\cybernek\develop\web\onesignal-pnp\single.php on line 71
+[18-Oct-2019 19:00:21 UTC] PHP Stack trace:
+[18-Oct-2019 19:00:21 UTC] PHP   1. {main}() D:\cybernek\develop\web\onesignal-pnp\single.php:0
+[18-Oct-2019 19:00:21 UTC] PHP Warning:  Invalid argument supplied for foreach() in D:\cybernek\develop\web\onesignal-pnp\single.php on line 71
+[18-Oct-2019 19:00:21 UTC] PHP Stack trace:
+[18-Oct-2019 19:00:21 UTC] PHP   1. {main}() D:\cybernek\develop\web\onesignal-pnp\single.php:0
+[18-Oct-2019 19:00:24 UTC] PHP Notice:  Trying to get property 'notifications' of non-object in D:\cybernek\develop\web\onesignal-pnp\schedule.php on line 70
+[18-Oct-2019 19:00:24 UTC] PHP Stack trace:
+[18-Oct-2019 19:00:24 UTC] PHP   1. {main}() D:\cybernek\develop\web\onesignal-pnp\schedule.php:0
+[18-Oct-2019 19:00:24 UTC] PHP Warning:  Invalid argument supplied for foreach() in D:\cybernek\develop\web\onesignal-pnp\schedule.php on line 70
+[18-Oct-2019 19:00:24 UTC] PHP Stack trace:
+[18-Oct-2019 19:00:24 UTC] PHP   1. {main}() D:\cybernek\develop\web\onesignal-pnp\schedule.php:0
+[18-Oct-2019 19:00:29 UTC] PHP Notice:  Trying to get property 'notifications' of non-object in D:\cybernek\develop\web\onesignal-pnp\schedule.php on line 70
+[18-Oct-2019 19:00:29 UTC] PHP Stack trace:
+[18-Oct-2019 19:00:29 UTC] PHP   1. {main}() D:\cybernek\develop\web\onesignal-pnp\schedule.php:0
+[18-Oct-2019 19:00:29 UTC] PHP Warning:  Invalid argument supplied for foreach() in D:\cybernek\develop\web\onesignal-pnp\schedule.php on line 70
+[18-Oct-2019 19:00:29 UTC] PHP Stack trace:
+[18-Oct-2019 19:00:29 UTC] PHP   1. {main}() D:\cybernek\develop\web\onesignal-pnp\schedule.php:0
+[18-Oct-2019 19:02:16 UTC] PHP Notice:  Trying to get property 'notifications' of non-object in D:\cybernek\develop\web\onesignal-pnp\schedule.php on line 70
+[18-Oct-2019 19:02:16 UTC] PHP Stack trace:
+[18-Oct-2019 19:02:16 UTC] PHP   1. {main}() D:\cybernek\develop\web\onesignal-pnp\schedule.php:0
+[18-Oct-2019 19:02:16 UTC] PHP Warning:  Invalid argument supplied for foreach() in D:\cybernek\develop\web\onesignal-pnp\schedule.php on line 70
+[18-Oct-2019 19:02:16 UTC] PHP Stack trace:
+[18-Oct-2019 19:02:16 UTC] PHP   1. {main}() D:\cybernek\develop\web\onesignal-pnp\schedule.php:0
+[18-Oct-2019 19:15:04 UTC] PHP Notice:  Trying to get property 'notifications' of non-object in D:\cybernek\develop\web\onesignal-pnp\index.php on line 67
+[18-Oct-2019 19:15:04 UTC] PHP Stack trace:
+[18-Oct-2019 19:15:04 UTC] PHP   1. {main}() D:\cybernek\develop\web\onesignal-pnp\index.php:0
+[18-Oct-2019 19:15:04 UTC] PHP Warning:  Invalid argument supplied for foreach() in D:\cybernek\develop\web\onesignal-pnp\index.php on line 67
+[18-Oct-2019 19:15:04 UTC] PHP Stack trace:
+[18-Oct-2019 19:15:04 UTC] PHP   1. {main}() D:\cybernek\develop\web\onesignal-pnp\index.php:0
+[18-Oct-2019 19:15:09 UTC] PHP Notice:  Trying to get property 'notifications' of non-object in D:\cybernek\develop\web\onesignal-pnp\single.php on line 71
+[18-Oct-2019 19:15:09 UTC] PHP Stack trace:
+[18-Oct-2019 19:15:09 UTC] PHP   1. {main}() D:\cybernek\develop\web\onesignal-pnp\single.php:0
+[18-Oct-2019 19:15:09 UTC] PHP Warning:  Invalid argument supplied for foreach() in D:\cybernek\develop\web\onesignal-pnp\single.php on line 71
+[18-Oct-2019 19:15:09 UTC] PHP Stack trace:
+[18-Oct-2019 19:15:09 UTC] PHP   1. {main}() D:\cybernek\develop\web\onesignal-pnp\single.php:0
+[18-Oct-2019 19:15:12 UTC] PHP Notice:  Trying to get property 'notifications' of non-object in D:\cybernek\develop\web\onesignal-pnp\schedule.php on line 70
+[18-Oct-2019 19:15:12 UTC] PHP Stack trace:
+[18-Oct-2019 19:15:12 UTC] PHP   1. {main}() D:\cybernek\develop\web\onesignal-pnp\schedule.php:0
+[18-Oct-2019 19:15:12 UTC] PHP Warning:  Invalid argument supplied for foreach() in D:\cybernek\develop\web\onesignal-pnp\schedule.php on line 70
+[18-Oct-2019 19:15:12 UTC] PHP Stack trace:
+[18-Oct-2019 19:15:12 UTC] PHP   1. {main}() D:\cybernek\develop\web\onesignal-pnp\schedule.php:0
+[18-Oct-2019 19:16:51 UTC] PHP Notice:  Trying to get property 'notifications' of non-object in D:\cybernek\develop\web\onesignal-pnp\index.php on line 67
+[18-Oct-2019 19:16:51 UTC] PHP Stack trace:
+[18-Oct-2019 19:16:51 UTC] PHP   1. {main}() D:\cybernek\develop\web\onesignal-pnp\index.php:0
+[18-Oct-2019 19:16:51 UTC] PHP Warning:  Invalid argument supplied for foreach() in D:\cybernek\develop\web\onesignal-pnp\index.php on line 67
+[18-Oct-2019 19:16:51 UTC] PHP Stack trace:
+[18-Oct-2019 19:16:51 UTC] PHP   1. {main}() D:\cybernek\develop\web\onesignal-pnp\index.php:0
+[18-Oct-2019 19:30:17 UTC] PHP Notice:  Trying to get property 'notifications' of non-object in D:\cybernek\develop\web\onesignal-pnp\index.php on line 67
+[18-Oct-2019 19:30:17 UTC] PHP Stack trace:
+[18-Oct-2019 19:30:17 UTC] PHP   1. {main}() D:\cybernek\develop\web\onesignal-pnp\index.php:0
+[18-Oct-2019 19:30:17 UTC] PHP Warning:  Invalid argument supplied for foreach() in D:\cybernek\develop\web\onesignal-pnp\index.php on line 67
+[18-Oct-2019 19:30:17 UTC] PHP Stack trace:
+[18-Oct-2019 19:30:17 UTC] PHP   1. {main}() D:\cybernek\develop\web\onesignal-pnp\index.php:0
+[18-Oct-2019 19:36:25 UTC] PHP Notice:  Trying to get property 'notifications' of non-object in D:\cybernek\develop\web\onesignal-pnp\index.php on line 67
+[18-Oct-2019 19:36:25 UTC] PHP Stack trace:
+[18-Oct-2019 19:36:25 UTC] PHP   1. {main}() D:\cybernek\develop\web\onesignal-pnp\index.php:0
+[18-Oct-2019 19:36:25 UTC] PHP Warning:  Invalid argument supplied for foreach() in D:\cybernek\develop\web\onesignal-pnp\index.php on line 67
+[18-Oct-2019 19:36:25 UTC] PHP Stack trace:
+[18-Oct-2019 19:36:25 UTC] PHP   1. {main}() D:\cybernek\develop\web\onesignal-pnp\index.php:0
+[18-Oct-2019 19:37:24 UTC] PHP Notice:  Trying to get property 'notifications' of non-object in D:\cybernek\develop\web\onesignal-pnp\index.php on line 67
+[18-Oct-2019 19:37:24 UTC] PHP Stack trace:
+[18-Oct-2019 19:37:24 UTC] PHP   1. {main}() D:\cybernek\develop\web\onesignal-pnp\index.php:0
+[18-Oct-2019 19:37:24 UTC] PHP Warning:  Invalid argument supplied for foreach() in D:\cybernek\develop\web\onesignal-pnp\index.php on line 67
+[18-Oct-2019 19:37:24 UTC] PHP Stack trace:
+[18-Oct-2019 19:37:24 UTC] PHP   1. {main}() D:\cybernek\develop\web\onesignal-pnp\index.php:0
+[18-Oct-2019 19:37:26 UTC] PHP Notice:  Trying to get property 'notifications' of non-object in D:\cybernek\develop\web\onesignal-pnp\index.php on line 67
+[18-Oct-2019 19:37:26 UTC] PHP Stack trace:
+[18-Oct-2019 19:37:26 UTC] PHP   1. {main}() D:\cybernek\develop\web\onesignal-pnp\index.php:0
+[18-Oct-2019 19:37:26 UTC] PHP Warning:  Invalid argument supplied for foreach() in D:\cybernek\develop\web\onesignal-pnp\index.php on line 67
+[18-Oct-2019 19:37:26 UTC] PHP Stack trace:
+[18-Oct-2019 19:37:26 UTC] PHP   1. {main}() D:\cybernek\develop\web\onesignal-pnp\index.php:0
+[18-Oct-2019 19:37:48 UTC] PHP Notice:  Trying to get property 'notifications' of non-object in D:\cybernek\develop\web\onesignal-pnp\index.php on line 67
+[18-Oct-2019 19:37:48 UTC] PHP Stack trace:
+[18-Oct-2019 19:37:48 UTC] PHP   1. {main}() D:\cybernek\develop\web\onesignal-pnp\index.php:0
+[18-Oct-2019 19:37:48 UTC] PHP Warning:  Invalid argument supplied for foreach() in D:\cybernek\develop\web\onesignal-pnp\index.php on line 67
+[18-Oct-2019 19:37:48 UTC] PHP Stack trace:
+[18-Oct-2019 19:37:48 UTC] PHP   1. {main}() D:\cybernek\develop\web\onesignal-pnp\index.php:0
+[18-Oct-2019 19:38:35 UTC] PHP Notice:  Trying to get property 'notifications' of non-object in D:\cybernek\develop\web\onesignal-pnp\index.php on line 67
+[18-Oct-2019 19:38:35 UTC] PHP Stack trace:
+[18-Oct-2019 19:38:35 UTC] PHP   1. {main}() D:\cybernek\develop\web\onesignal-pnp\index.php:0
+[18-Oct-2019 19:38:35 UTC] PHP Warning:  Invalid argument supplied for foreach() in D:\cybernek\develop\web\onesignal-pnp\index.php on line 67
+[18-Oct-2019 19:38:35 UTC] PHP Stack trace:
+[18-Oct-2019 19:38:35 UTC] PHP   1. {main}() D:\cybernek\develop\web\onesignal-pnp\index.php:0
+[18-Oct-2019 19:40:15 UTC] PHP Notice:  Trying to get property 'notifications' of non-object in D:\cybernek\develop\web\onesignal-pnp\index.php on line 67
+[18-Oct-2019 19:40:15 UTC] PHP Stack trace:
+[18-Oct-2019 19:40:15 UTC] PHP   1. {main}() D:\cybernek\develop\web\onesignal-pnp\index.php:0
+[18-Oct-2019 19:40:15 UTC] PHP Warning:  Invalid argument supplied for foreach() in D:\cybernek\develop\web\onesignal-pnp\index.php on line 67
+[18-Oct-2019 19:40:15 UTC] PHP Stack trace:
+[18-Oct-2019 19:40:15 UTC] PHP   1. {main}() D:\cybernek\develop\web\onesignal-pnp\index.php:0
+[18-Oct-2019 19:40:45 UTC] PHP Notice:  Trying to get property 'notifications' of non-object in D:\cybernek\develop\web\onesignal-pnp\sent.php on line 38
+[18-Oct-2019 19:40:45 UTC] PHP Stack trace:
+[18-Oct-2019 19:40:45 UTC] PHP   1. {main}() D:\cybernek\develop\web\onesignal-pnp\sent.php:0
+[18-Oct-2019 19:40:45 UTC] PHP Warning:  Invalid argument supplied for foreach() in D:\cybernek\develop\web\onesignal-pnp\sent.php on line 38
+[18-Oct-2019 19:40:45 UTC] PHP Stack trace:
+[18-Oct-2019 19:40:45 UTC] PHP   1. {main}() D:\cybernek\develop\web\onesignal-pnp\sent.php:0
+[18-Oct-2019 19:40:45 UTC] PHP Notice:  Trying to get property 'total_count' of non-object in D:\cybernek\develop\web\onesignal-pnp\sent.php on line 60
+[18-Oct-2019 19:40:45 UTC] PHP Stack trace:
+[18-Oct-2019 19:40:45 UTC] PHP   1. {main}() D:\cybernek\develop\web\onesignal-pnp\sent.php:0
+[18-Oct-2019 19:40:56 UTC] PHP Notice:  Trying to get property 'notifications' of non-object in D:\cybernek\develop\web\onesignal-pnp\schedule.php on line 70
+[18-Oct-2019 19:40:56 UTC] PHP Stack trace:
+[18-Oct-2019 19:40:56 UTC] PHP   1. {main}() D:\cybernek\develop\web\onesignal-pnp\schedule.php:0
+[18-Oct-2019 19:40:56 UTC] PHP Warning:  Invalid argument supplied for foreach() in D:\cybernek\develop\web\onesignal-pnp\schedule.php on line 70
+[18-Oct-2019 19:40:56 UTC] PHP Stack trace:
+[18-Oct-2019 19:40:56 UTC] PHP   1. {main}() D:\cybernek\develop\web\onesignal-pnp\schedule.php:0
+[18-Oct-2019 19:41:03 UTC] PHP Notice:  Trying to get property 'notifications' of non-object in D:\cybernek\develop\web\onesignal-pnp\single.php on line 71
+[18-Oct-2019 19:41:03 UTC] PHP Stack trace:
+[18-Oct-2019 19:41:03 UTC] PHP   1. {main}() D:\cybernek\develop\web\onesignal-pnp\single.php:0
+[18-Oct-2019 19:41:03 UTC] PHP Warning:  Invalid argument supplied for foreach() in D:\cybernek\develop\web\onesignal-pnp\single.php on line 71
+[18-Oct-2019 19:41:03 UTC] PHP Stack trace:
+[18-Oct-2019 19:41:03 UTC] PHP   1. {main}() D:\cybernek\develop\web\onesignal-pnp\single.php:0
+[18-Oct-2019 19:41:07 UTC] PHP Notice:  Trying to get property 'notifications' of non-object in D:\cybernek\develop\web\onesignal-pnp\index.php on line 67
+[18-Oct-2019 19:41:07 UTC] PHP Stack trace:
+[18-Oct-2019 19:41:07 UTC] PHP   1. {main}() D:\cybernek\develop\web\onesignal-pnp\index.php:0
+[18-Oct-2019 19:41:07 UTC] PHP Warning:  Invalid argument supplied for foreach() in D:\cybernek\develop\web\onesignal-pnp\index.php on line 67
+[18-Oct-2019 19:41:07 UTC] PHP Stack trace:
+[18-Oct-2019 19:41:07 UTC] PHP   1. {main}() D:\cybernek\develop\web\onesignal-pnp\index.php:0
+[18-Oct-2019 19:45:11 UTC] PHP Notice:  Trying to get property 'notifications' of non-object in D:\cybernek\develop\web\onesignal-pnp\index.php on line 67
+[18-Oct-2019 19:45:11 UTC] PHP Stack trace:
+[18-Oct-2019 19:45:11 UTC] PHP   1. {main}() D:\cybernek\develop\web\onesignal-pnp\index.php:0
+[18-Oct-2019 19:45:11 UTC] PHP Warning:  Invalid argument supplied for foreach() in D:\cybernek\develop\web\onesignal-pnp\index.php on line 67
+[18-Oct-2019 19:45:11 UTC] PHP Stack trace:
+[18-Oct-2019 19:45:11 UTC] PHP   1. {main}() D:\cybernek\develop\web\onesignal-pnp\index.php:0
+[18-Oct-2019 19:52:46 UTC] PHP Notice:  Trying to get property 'notifications' of non-object in D:\cybernek\develop\web\onesignal-pnp\index.php on line 67
+[18-Oct-2019 19:52:46 UTC] PHP Stack trace:
+[18-Oct-2019 19:52:46 UTC] PHP   1. {main}() D:\cybernek\develop\web\onesignal-pnp\index.php:0
+[18-Oct-2019 19:52:46 UTC] PHP Warning:  Invalid argument supplied for foreach() in D:\cybernek\develop\web\onesignal-pnp\index.php on line 67
+[18-Oct-2019 19:52:46 UTC] PHP Stack trace:
+[18-Oct-2019 19:52:46 UTC] PHP   1. {main}() D:\cybernek\develop\web\onesignal-pnp\index.php:0
+[18-Oct-2019 19:53:18 UTC] PHP Notice:  Trying to get property 'notifications' of non-object in D:\cybernek\develop\web\onesignal-pnp\index.php on line 67
+[18-Oct-2019 19:53:18 UTC] PHP Stack trace:
+[18-Oct-2019 19:53:18 UTC] PHP   1. {main}() D:\cybernek\develop\web\onesignal-pnp\index.php:0
+[18-Oct-2019 19:53:18 UTC] PHP Warning:  Invalid argument supplied for foreach() in D:\cybernek\develop\web\onesignal-pnp\index.php on line 67
+[18-Oct-2019 19:53:18 UTC] PHP Stack trace:
+[18-Oct-2019 19:53:18 UTC] PHP   1. {main}() D:\cybernek\develop\web\onesignal-pnp\index.php:0
+[18-Oct-2019 19:58:04 UTC] PHP Notice:  Trying to get property 'notifications' of non-object in D:\cybernek\develop\web\onesignal-pnp\index.php on line 67
+[18-Oct-2019 19:58:04 UTC] PHP Stack trace:
+[18-Oct-2019 19:58:04 UTC] PHP   1. {main}() D:\cybernek\develop\web\onesignal-pnp\index.php:0
+[18-Oct-2019 19:58:04 UTC] PHP Warning:  Invalid argument supplied for foreach() in D:\cybernek\develop\web\onesignal-pnp\index.php on line 67
+[18-Oct-2019 19:58:04 UTC] PHP Stack trace:
+[18-Oct-2019 19:58:04 UTC] PHP   1. {main}() D:\cybernek\develop\web\onesignal-pnp\index.php:0
+[18-Oct-2019 19:59:52 UTC] PHP Notice:  Trying to get property 'notifications' of non-object in D:\cybernek\develop\web\onesignal-pnp\index.php on line 67
+[18-Oct-2019 19:59:52 UTC] PHP Stack trace:
+[18-Oct-2019 19:59:52 UTC] PHP   1. {main}() D:\cybernek\develop\web\onesignal-pnp\index.php:0
+[18-Oct-2019 19:59:52 UTC] PHP Warning:  Invalid argument supplied for foreach() in D:\cybernek\develop\web\onesignal-pnp\index.php on line 67
+[18-Oct-2019 19:59:52 UTC] PHP Stack trace:
+[18-Oct-2019 19:59:52 UTC] PHP   1. {main}() D:\cybernek\develop\web\onesignal-pnp\index.php:0
+[18-Oct-2019 20:01:39 UTC] PHP Notice:  Trying to get property 'notifications' of non-object in D:\cybernek\develop\web\onesignal-pnp\index.php on line 67
+[18-Oct-2019 20:01:39 UTC] PHP Stack trace:
+[18-Oct-2019 20:01:39 UTC] PHP   1. {main}() D:\cybernek\develop\web\onesignal-pnp\index.php:0
+[18-Oct-2019 20:01:39 UTC] PHP Warning:  Invalid argument supplied for foreach() in D:\cybernek\develop\web\onesignal-pnp\index.php on line 67
+[18-Oct-2019 20:01:39 UTC] PHP Stack trace:
+[18-Oct-2019 20:01:39 UTC] PHP   1. {main}() D:\cybernek\develop\web\onesignal-pnp\index.php:0
+[18-Oct-2019 20:10:06 UTC] PHP Notice:  Trying to get property 'notifications' of non-object in D:\cybernek\develop\web\onesignal-pnp\index.php on line 67
+[18-Oct-2019 20:10:06 UTC] PHP Stack trace:
+[18-Oct-2019 20:10:06 UTC] PHP   1. {main}() D:\cybernek\develop\web\onesignal-pnp\index.php:0
+[18-Oct-2019 20:10:06 UTC] PHP Warning:  Invalid argument supplied for foreach() in D:\cybernek\develop\web\onesignal-pnp\index.php on line 67
+[18-Oct-2019 20:10:06 UTC] PHP Stack trace:
+[18-Oct-2019 20:10:06 UTC] PHP   1. {main}() D:\cybernek\develop\web\onesignal-pnp\index.php:0
+[18-Oct-2019 20:10:40 UTC] PHP Notice:  Trying to get property 'notifications' of non-object in D:\cybernek\develop\web\onesignal-pnp\index.php on line 67
+[18-Oct-2019 20:10:40 UTC] PHP Stack trace:
+[18-Oct-2019 20:10:40 UTC] PHP   1. {main}() D:\cybernek\develop\web\onesignal-pnp\index.php:0
+[18-Oct-2019 20:10:40 UTC] PHP Warning:  Invalid argument supplied for foreach() in D:\cybernek\develop\web\onesignal-pnp\index.php on line 67
+[18-Oct-2019 20:10:40 UTC] PHP Stack trace:
+[18-Oct-2019 20:10:40 UTC] PHP   1. {main}() D:\cybernek\develop\web\onesignal-pnp\index.php:0
+[18-Oct-2019 20:10:55 UTC] PHP Notice:  Trying to get property 'notifications' of non-object in D:\cybernek\develop\web\onesignal-pnp\index.php on line 67
+[18-Oct-2019 20:10:55 UTC] PHP Stack trace:
+[18-Oct-2019 20:10:55 UTC] PHP   1. {main}() D:\cybernek\develop\web\onesignal-pnp\index.php:0
+[18-Oct-2019 20:10:55 UTC] PHP Warning:  Invalid argument supplied for foreach() in D:\cybernek\develop\web\onesignal-pnp\index.php on line 67
+[18-Oct-2019 20:10:55 UTC] PHP Stack trace:
+[18-Oct-2019 20:10:55 UTC] PHP   1. {main}() D:\cybernek\develop\web\onesignal-pnp\index.php:0
+[18-Oct-2019 20:11:01 UTC] PHP Notice:  Trying to get property 'notifications' of non-object in D:\cybernek\develop\web\onesignal-pnp\index.php on line 67
+[18-Oct-2019 20:11:01 UTC] PHP Stack trace:
+[18-Oct-2019 20:11:01 UTC] PHP   1. {main}() D:\cybernek\develop\web\onesignal-pnp\index.php:0
+[18-Oct-2019 20:11:01 UTC] PHP Warning:  Invalid argument supplied for foreach() in D:\cybernek\develop\web\onesignal-pnp\index.php on line 67
+[18-Oct-2019 20:11:01 UTC] PHP Stack trace:
+[18-Oct-2019 20:11:01 UTC] PHP   1. {main}() D:\cybernek\develop\web\onesignal-pnp\index.php:0
+[18-Oct-2019 20:11:05 UTC] PHP Notice:  Trying to get property 'notifications' of non-object in D:\cybernek\develop\web\onesignal-pnp\single.php on line 71
+[18-Oct-2019 20:11:05 UTC] PHP Stack trace:
+[18-Oct-2019 20:11:05 UTC] PHP   1. {main}() D:\cybernek\develop\web\onesignal-pnp\single.php:0
+[18-Oct-2019 20:11:05 UTC] PHP Warning:  Invalid argument supplied for foreach() in D:\cybernek\develop\web\onesignal-pnp\single.php on line 71
+[18-Oct-2019 20:11:05 UTC] PHP Stack trace:
+[18-Oct-2019 20:11:05 UTC] PHP   1. {main}() D:\cybernek\develop\web\onesignal-pnp\single.php:0
+[18-Oct-2019 20:11:07 UTC] PHP Notice:  Trying to get property 'notifications' of non-object in D:\cybernek\develop\web\onesignal-pnp\schedule.php on line 70
+[18-Oct-2019 20:11:07 UTC] PHP Stack trace:
+[18-Oct-2019 20:11:07 UTC] PHP   1. {main}() D:\cybernek\develop\web\onesignal-pnp\schedule.php:0
+[18-Oct-2019 20:11:07 UTC] PHP Warning:  Invalid argument supplied for foreach() in D:\cybernek\develop\web\onesignal-pnp\schedule.php on line 70
+[18-Oct-2019 20:11:07 UTC] PHP Stack trace:
+[18-Oct-2019 20:11:07 UTC] PHP   1. {main}() D:\cybernek\develop\web\onesignal-pnp\schedule.php:0
+[18-Oct-2019 20:11:16 UTC] PHP Notice:  Trying to get property 'notifications' of non-object in D:\cybernek\develop\web\onesignal-pnp\schedule.php on line 70
+[18-Oct-2019 20:11:16 UTC] PHP Stack trace:
+[18-Oct-2019 20:11:16 UTC] PHP   1. {main}() D:\cybernek\develop\web\onesignal-pnp\schedule.php:0
+[18-Oct-2019 20:11:16 UTC] PHP Warning:  Invalid argument supplied for foreach() in D:\cybernek\develop\web\onesignal-pnp\schedule.php on line 70
+[18-Oct-2019 20:11:16 UTC] PHP Stack trace:
+[18-Oct-2019 20:11:16 UTC] PHP   1. {main}() D:\cybernek\develop\web\onesignal-pnp\schedule.php:0
+[18-Oct-2019 20:11:17 UTC] PHP Notice:  Trying to get property 'notifications' of non-object in D:\cybernek\develop\web\onesignal-pnp\single.php on line 71
+[18-Oct-2019 20:11:17 UTC] PHP Stack trace:
+[18-Oct-2019 20:11:17 UTC] PHP   1. {main}() D:\cybernek\develop\web\onesignal-pnp\single.php:0
+[18-Oct-2019 20:11:17 UTC] PHP Warning:  Invalid argument supplied for foreach() in D:\cybernek\develop\web\onesignal-pnp\single.php on line 71
+[18-Oct-2019 20:11:17 UTC] PHP Stack trace:
+[18-Oct-2019 20:11:17 UTC] PHP   1. {main}() D:\cybernek\develop\web\onesignal-pnp\single.php:0
+[18-Oct-2019 20:12:18 UTC] PHP Notice:  Trying to get property 'notifications' of non-object in D:\cybernek\develop\web\onesignal-pnp\single.php on line 71
+[18-Oct-2019 20:12:18 UTC] PHP Stack trace:
+[18-Oct-2019 20:12:18 UTC] PHP   1. {main}() D:\cybernek\develop\web\onesignal-pnp\single.php:0
+[18-Oct-2019 20:12:18 UTC] PHP Warning:  Invalid argument supplied for foreach() in D:\cybernek\develop\web\onesignal-pnp\single.php on line 71
+[18-Oct-2019 20:12:18 UTC] PHP Stack trace:
+[18-Oct-2019 20:12:18 UTC] PHP   1. {main}() D:\cybernek\develop\web\onesignal-pnp\single.php:0
+[18-Oct-2019 20:13:32 UTC] PHP Notice:  Trying to get property 'notifications' of non-object in D:\cybernek\develop\web\onesignal-pnp\single.php on line 71
+[18-Oct-2019 20:13:32 UTC] PHP Stack trace:
+[18-Oct-2019 20:13:32 UTC] PHP   1. {main}() D:\cybernek\develop\web\onesignal-pnp\single.php:0
+[18-Oct-2019 20:13:32 UTC] PHP Warning:  Invalid argument supplied for foreach() in D:\cybernek\develop\web\onesignal-pnp\single.php on line 71
+[18-Oct-2019 20:13:32 UTC] PHP Stack trace:
+[18-Oct-2019 20:13:32 UTC] PHP   1. {main}() D:\cybernek\develop\web\onesignal-pnp\single.php:0
+[18-Oct-2019 20:17:53 UTC] PHP Notice:  Trying to get property 'notifications' of non-object in D:\cybernek\develop\web\onesignal-pnp\single.php on line 71
+[18-Oct-2019 20:17:53 UTC] PHP Stack trace:
+[18-Oct-2019 20:17:53 UTC] PHP   1. {main}() D:\cybernek\develop\web\onesignal-pnp\single.php:0
+[18-Oct-2019 20:17:53 UTC] PHP Warning:  Invalid argument supplied for foreach() in D:\cybernek\develop\web\onesignal-pnp\single.php on line 71
+[18-Oct-2019 20:17:53 UTC] PHP Stack trace:
+[18-Oct-2019 20:17:53 UTC] PHP   1. {main}() D:\cybernek\develop\web\onesignal-pnp\single.php:0
+[18-Oct-2019 20:18:05 UTC] PHP Notice:  Trying to get property 'notifications' of non-object in D:\cybernek\develop\web\onesignal-pnp\single.php on line 71
+[18-Oct-2019 20:18:05 UTC] PHP Stack trace:
+[18-Oct-2019 20:18:05 UTC] PHP   1. {main}() D:\cybernek\develop\web\onesignal-pnp\single.php:0
+[18-Oct-2019 20:18:05 UTC] PHP Warning:  Invalid argument supplied for foreach() in D:\cybernek\develop\web\onesignal-pnp\single.php on line 71
+[18-Oct-2019 20:18:05 UTC] PHP Stack trace:
+[18-Oct-2019 20:18:05 UTC] PHP   1. {main}() D:\cybernek\develop\web\onesignal-pnp\single.php:0
+[18-Oct-2019 20:25:06 UTC] PHP Notice:  Trying to get property 'notifications' of non-object in D:\cybernek\develop\web\onesignal-pnp\single.php on line 71
+[18-Oct-2019 20:25:06 UTC] PHP Stack trace:
+[18-Oct-2019 20:25:06 UTC] PHP   1. {main}() D:\cybernek\develop\web\onesignal-pnp\single.php:0
+[18-Oct-2019 20:25:06 UTC] PHP Warning:  Invalid argument supplied for foreach() in D:\cybernek\develop\web\onesignal-pnp\single.php on line 71
+[18-Oct-2019 20:25:06 UTC] PHP Stack trace:
+[18-Oct-2019 20:25:06 UTC] PHP   1. {main}() D:\cybernek\develop\web\onesignal-pnp\single.php:0
+[18-Oct-2019 20:37:31 UTC] PHP Notice:  Undefined index: recipients in D:\cybernek\develop\web\onesignal-pnp\notification_api.php on line 178
+[18-Oct-2019 20:37:32 UTC] PHP Stack trace:
+[18-Oct-2019 20:37:32 UTC] PHP   1. {main}() D:\cybernek\develop\web\onesignal-pnp\notification_api.php:0
+[18-Oct-2019 20:49:47 UTC] PHP Warning:  curl_error(): supplied resource is not a valid cURL handle resource in D:\cybernek\develop\web\onesignal-pnp\notification_api.php on line 152
+[18-Oct-2019 20:49:47 UTC] PHP Stack trace:
+[18-Oct-2019 20:49:47 UTC] PHP   1. {main}() D:\cybernek\develop\web\onesignal-pnp\notification_api.php:0
+[18-Oct-2019 20:49:47 UTC] PHP   2. OneSignal->sendAfter() D:\cybernek\develop\web\onesignal-pnp\notification_api.php:197
+[18-Oct-2019 20:49:47 UTC] PHP   3. curl_error() D:\cybernek\develop\web\onesignal-pnp\notification_api.php:152
+[18-Oct-2019 21:29:18 UTC] PHP Notice:  Trying to get property 'notifications' of non-object in D:\cybernek\develop\web\onesignal-pnp\schedule.php on line 65
+[18-Oct-2019 21:29:18 UTC] PHP Stack trace:
+[18-Oct-2019 21:29:18 UTC] PHP   1. {main}() D:\cybernek\develop\web\onesignal-pnp\schedule.php:0
+[18-Oct-2019 21:29:18 UTC] PHP Warning:  Invalid argument supplied for foreach() in D:\cybernek\develop\web\onesignal-pnp\schedule.php on line 65
+[18-Oct-2019 21:29:18 UTC] PHP Stack trace:
+[18-Oct-2019 21:29:18 UTC] PHP   1. {main}() D:\cybernek\develop\web\onesignal-pnp\schedule.php:0
+[18-Oct-2019 21:29:36 UTC] PHP Notice:  Undefined index: [channel] in D:\cybernek\develop\web\onesignal-pnp\notification_api.php on line 202
+[18-Oct-2019 21:29:36 UTC] PHP Stack trace:
+[18-Oct-2019 21:29:36 UTC] PHP   1. {main}() D:\cybernek\develop\web\onesignal-pnp\notification_api.php:0

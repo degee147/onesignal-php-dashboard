@@ -65,6 +65,7 @@
 					
 					$return = json_decode($response); 
 					foreach ($return->notifications as $notifi) { 
+                        // var_dump($notifi);
 						if($notifi->data == null) {
 					
 					
