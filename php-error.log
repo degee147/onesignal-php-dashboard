@@ -264,3 +264,38 @@
 [18-Oct-2019 21:29:36 UTC] PHP Notice:  Undefined index: [channel] in D:\cybernek\develop\web\onesignal-pnp\notification_api.php on line 202
 [18-Oct-2019 21:29:36 UTC] PHP Stack trace:
 [18-Oct-2019 21:29:36 UTC] PHP   1. {main}() D:\cybernek\develop\web\onesignal-pnp\notification_api.php:0
+[21-Oct-2019 10:12:39 UTC] PHP Warning:  file_get_contents(./schedule.json): failed to open stream: No such file or directory in D:\cybernek\develop\web\onesignal-pnp\schedule.php on line 23
+[21-Oct-2019 10:12:39 UTC] PHP Stack trace:
+[21-Oct-2019 10:12:39 UTC] PHP   1. {main}() D:\cybernek\develop\web\onesignal-pnp\schedule.php:0
+[21-Oct-2019 10:12:39 UTC] PHP   2. file_get_contents() D:\cybernek\develop\web\onesignal-pnp\schedule.php:23
+[21-Oct-2019 10:12:39 UTC] PHP Notice:  Trying to get property 'notifications' of non-object in D:\cybernek\develop\web\onesignal-pnp\schedule.php on line 75
+[21-Oct-2019 10:12:39 UTC] PHP Stack trace:
+[21-Oct-2019 10:12:39 UTC] PHP   1. {main}() D:\cybernek\develop\web\onesignal-pnp\schedule.php:0
+[21-Oct-2019 10:12:39 UTC] PHP Warning:  Invalid argument supplied for foreach() in D:\cybernek\develop\web\onesignal-pnp\schedule.php on line 75
+[21-Oct-2019 10:12:39 UTC] PHP Stack trace:
+[21-Oct-2019 10:12:39 UTC] PHP   1. {main}() D:\cybernek\develop\web\onesignal-pnp\schedule.php:0
+[21-Oct-2019 10:13:18 UTC] PHP Notice:  Trying to get property 'notifications' of non-object in D:\cybernek\develop\web\onesignal-pnp\schedule.php on line 75
+[21-Oct-2019 10:13:18 UTC] PHP Stack trace:
+[21-Oct-2019 10:13:18 UTC] PHP   1. {main}() D:\cybernek\develop\web\onesignal-pnp\schedule.php:0
+[21-Oct-2019 10:13:18 UTC] PHP Warning:  Invalid argument supplied for foreach() in D:\cybernek\develop\web\onesignal-pnp\schedule.php on line 75
+[21-Oct-2019 10:13:18 UTC] PHP Stack trace:
+[21-Oct-2019 10:13:18 UTC] PHP   1. {main}() D:\cybernek\develop\web\onesignal-pnp\schedule.php:0
+[21-Oct-2019 11:24:47 UTC] PHP Notice:  Undefined index: status in D:\cybernek\develop\web\onesignal-pnp\notification_api.php on line 68
+[21-Oct-2019 11:24:47 UTC] PHP Stack trace:
+[21-Oct-2019 11:24:47 UTC] PHP   1. {main}() D:\cybernek\develop\web\onesignal-pnp\notification_api.php:0
+[21-Oct-2019 11:27:34 UTC] PHP Notice:  Undefined index: status in D:\cybernek\develop\web\onesignal-pnp\notification_api.php on line 68
+[21-Oct-2019 11:27:34 UTC] PHP Stack trace:
+[21-Oct-2019 11:27:34 UTC] PHP   1. {main}() D:\cybernek\develop\web\onesignal-pnp\notification_api.php:0
+[21-Oct-2019 11:48:03 UTC] PHP Notice:  Undefined index: status in D:\cybernek\develop\web\onesignal-pnp\notification_api.php on line 68
+[21-Oct-2019 11:48:03 UTC] PHP Stack trace:
+[21-Oct-2019 11:48:03 UTC] PHP   1. {main}() D:\cybernek\develop\web\onesignal-pnp\notification_api.php:0
+[21-Oct-2019 11:51:28 UTC] PHP Notice:  Undefined index: status in D:\cybernek\develop\web\onesignal-pnp\notification_api.php on line 68
+[21-Oct-2019 11:51:28 UTC] PHP Stack trace:
+[21-Oct-2019 11:51:28 UTC] PHP   1. {main}() D:\cybernek\develop\web\onesignal-pnp\notification_api.php:0
+[21-Oct-2019 14:30:57 UTC] PHP Notice:  Undefined variable: value in D:\cybernek\develop\web\onesignal-pnp\daily.php on line 45
+[21-Oct-2019 14:30:57 UTC] PHP Warning:  DOMDocument::loadHTML() expects parameter 1 to be string, array given in D:\cybernek\develop\web\onesignal-pnp\daily.php on line 10
+[21-Oct-2019 14:30:57 UTC] PHP Notice:  Undefined offset: 0 in D:\cybernek\develop\web\onesignal-pnp\daily.php on line 18
+[21-Oct-2019 14:31:27 UTC] PHP Warning:  DOMDocument::loadHTML() expects parameter 1 to be string, array given in D:\cybernek\develop\web\onesignal-pnp\daily.php on line 10
+[21-Oct-2019 14:31:27 UTC] PHP Notice:  Undefined offset: 0 in D:\cybernek\develop\web\onesignal-pnp\daily.php on line 18
+[21-Oct-2019 14:33:37 UTC] PHP Notice:  Undefined offset: 0 in D:\cybernek\develop\web\onesignal-pnp\daily.php on line 50
+[21-Oct-2019 14:37:52 UTC] PHP Notice:  Undefined offset: 0 in D:\cybernek\develop\web\onesignal-pnp\daily.php on line 18

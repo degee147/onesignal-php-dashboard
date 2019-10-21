@@ -1,216 +1,79 @@
 <?php
 session_start();
-if(!isset($_SESSION['logged'])){
-        header("Location: login.php");
-        exit();
+if (!isset($_SESSION['logged'])) {
+	header("Location: login.php");
+	exit();
 }
 
 ini_set("log_errors", 1);
 ini_set("error_log", "./error.log");
 
 include 'config.php';
+include 'onesignal.php';
 
-class OneSignal{
-	private $app_id;
-	private $auth_key;
-	private $api_logo;
-	public function __construct($app_id, $auth_key, $api_logo){
-		$this->app_id = $app_id;
-		$this->auth_key = $auth_key;
-		$this->api_logo = $api_logo;
+
+if (isset($_POST['send'])) {
+
+	$on = new OneSignal($app_id, $auth_key, $api_logo);
+
+	$title = $_POST['title'];
+	$content = $_POST['content'];
+	$url = $_POST['url'];
+	$res = $on->sendMessage($title, $content, $url, $lang = 'en');
+
+	$book = json_decode($res, true);
+	echo $book['recipients'];
+}
+if (isset($_POST['single'])) {
+
+	$on = new OneSignal($app_id, $auth_key, $api_logo);
+
+	$title = $_POST['title'];
+	$content = $_POST['content'];
+	$url = $_POST['url'];
+	$userid = $_POST['devicesid'];
+	$res = $on->singleMessage($title, $content, $url, $userid, $lang = 'en');
+
+	$book = json_decode($res, true);
+	echo $book['recipients'];
+}
+if (isset($_POST['sendafter'])) {
+
+	$on = new OneSignal($app_id, $auth_key, $api_logo);
+	$sendaft = $_POST['send_after'];
+	$feed = $_POST['feed'];
+
+	$xml = simplexml_load_string(file_get_contents($feed));
+	$json = json_encode($xml);
+	$array = json_decode($json, TRUE);
+	$title = $array['channel']['title'];
+	$content = $array['channel']['description'];
+	$url = $array['channel']['link'];
+
+	// var_dump($array['channel']['title']);
+	// die();
+	// $title = $_POST['title'];
+	// $content = $_POST['content'];
+	// $url = $_POST['url'];
+	$res = $on->sendAfter($title, $content, $url, $sendaft, $lang = 'en');
+
+	$book = json_decode($res, true);
+	echo $book['recipients'];
+}
+if (isset($_POST['dailyschedule'])) { //here we save to file
+
+	$schedule = [];
+	if(file_get_contents('./schedule.json', FILE_USE_INCLUDE_PATH)){
+		$file = file_get_contents('./schedule.json', FILE_USE_INCLUDE_PATH);
+		$schedule = json_decode($file, true);
 	}
-	
-	public function singleMessage($title, $content, $url, $userid, $lang = 'en'){
-		
-		$content = array(
-			$lang => $content,
-		);
-			
-		$heading = array(
-			$lang => $title,
-		);
-		
-		$fields = array(
-			'app_id' => $this->app_id,
-			'included_segments' => array('Active Users'),
-			'include_player_ids' => array( $userid ),
-			'contents' => $content,
-			'url' => $url,
-			'headings' => $heading,
-			'chrome_web_icon' => $this->api_logo,
-		);
-		
-		$headers = array(
-			'Content-Type: application/json; charset=utf-8',
-			'Authorization: Basic '.$this->auth_key,
-		);
-		
-		$fields = json_encode($fields);
 
-		
-		$ch = curl_init();
-		curl_setopt($ch, CURLOPT_URL, "https://onesignal.com/api/v1/notifications");
-		curl_setopt($ch, CURLOPT_HTTPHEADER, $headers);
-		curl_setopt($ch, CURLOPT_RETURNTRANSFER, TRUE);
-		curl_setopt($ch, CURLOPT_HEADER, FALSE);
-		curl_setopt($ch, CURLOPT_POST, TRUE);
-		curl_setopt($ch, CURLOPT_POSTFIELDS, $fields);
-		curl_setopt($ch, CURLOPT_SSL_VERIFYPEER, FALSE);
+	$schedule['feed'] = $_POST['feed'];
+	$schedule['time'] = $_POST['time'];
+	$schedule['status'] = $_POST['status'];
 
-		$response = curl_exec($ch);
-		curl_close($ch);
-		
-		return $response;
-	}	
+	file_put_contents('./schedule.json', json_encode($schedule));	
 
-	public function sendMessage($title, $content, $url, $lang = 'en'){
-		
-		$content = array(
-			$lang => $content,
-		);
-			
-		$heading = array(
-			$lang => $title,
-		);
-		
-		$fields = array(
-			'app_id' => $this->app_id,
-			'included_segments' => array('Active Users', 'Subscribed Users'),
-			// 'included_segments' => array('All'),
-			'contents' => $content,
-			'url' => $url,
-			'headings' => $heading,
-			'chrome_web_icon' => $this->api_logo,
-		);
-		
-		$headers = array(
-			'Content-Type: application/json; charset=utf-8',
-			'Authorization: Basic '.$this->auth_key,
-		);
-		
-		$fields = json_encode($fields);
-
-		
-		$ch = curl_init();
-		curl_setopt($ch, CURLOPT_URL, "https://onesignal.com/api/v1/notifications");
-		curl_setopt($ch, CURLOPT_HTTPHEADER, $headers);
-		curl_setopt($ch, CURLOPT_RETURNTRANSFER, TRUE);
-		curl_setopt($ch, CURLOPT_HEADER, FALSE);
-		curl_setopt($ch, CURLOPT_POST, TRUE);
-		curl_setopt($ch, CURLOPT_POSTFIELDS, $fields);
-		curl_setopt($ch, CURLOPT_SSL_VERIFYPEER, FALSE);
-
-		$response = curl_exec($ch);
-		curl_close($ch);
-		
-		return $response;
-	}	
-
-	public function sendAfter($title, $content, $url, $sendaft, $lang = 'en'){
-		
-		$content = array(
-			$lang => $content,
-		);
-			
-		$heading = array(
-			$lang => $title,
-		);
-		
-		$fields = array(
-			'app_id' => $this->app_id,
-			'included_segments' => array('Active Users', 'Subscribed Users'),
-			// 'included_segments' => array('All'),
-			'contents' => $content,
-			'url' => $url,
-			'headings' => $heading,
-			'chrome_web_icon' => $this->api_logo,
-			'send_after' => $sendaft
-		);
-
-		
-		
-		$headers = array(
-			'Content-Type: application/json; charset=utf-8',
-			'Authorization: Basic '.$this->auth_key,
-		);
-		
-		$fields = json_encode($fields);
-
-		
-		$ch = curl_init();
-		curl_setopt($ch, CURLOPT_URL, "https://onesignal.com/api/v1/notifications");
-		curl_setopt($ch, CURLOPT_HTTPHEADER, $headers);
-		curl_setopt($ch, CURLOPT_RETURNTRANSFER, TRUE);
-		curl_setopt($ch, CURLOPT_HEADER, FALSE);
-		curl_setopt($ch, CURLOPT_POST, TRUE);
-		curl_setopt($ch, CURLOPT_POSTFIELDS, $fields);
-		curl_setopt($ch, CURLOPT_SSL_VERIFYPEER, FALSE);
-
-		$response = curl_exec($ch);
-		// var_dump($response);
-		
-		$err = curl_error($ch);
-		// var_dump($err);
-		// die();
-
-		curl_close($ch);
-
-
-		// var_dump($response);
-		// die();
-		
-		return $response;
-	}	
-}
-
-if(isset($_POST['send'])) {
-	
-		$on = new OneSignal($app_id, $auth_key, $api_logo);
-
-		$title = $_POST['title'];
-		$content = $_POST['content'];
-		$url = $_POST['url'];
-		$res = $on->sendMessage($title, $content, $url , $lang = 'en');
-
-		$book = json_decode($res, true);
-		echo $book['recipients'];
-		
-}
-if(isset($_POST['single'])) {
-	
-		$on = new OneSignal($app_id, $auth_key, $api_logo);
-
-		$title = $_POST['title'];
-		$content = $_POST['content'];
-		$url = $_POST['url'];
-		$userid = $_POST['devicesid'];
-		$res = $on->singleMessage($title, $content, $url, $userid, $lang = 'en');
-
-		$book = json_decode($res, true);
-		echo $book['recipients'];
-		
-}
-if(isset($_POST['sendafter'])) {
-	
-		$on = new OneSignal($app_id, $auth_key, $api_logo);
-		$sendaft = $_POST['send_after'];
-		$feed = $_POST['feed'];
-
-		$xml = simplexml_load_string(file_get_contents($feed));
-		$json = json_encode($xml);
-		$array = json_decode($json,TRUE);
-		$title = $array['channel']['title'];
-		$content = $array['channel']['description'];
-		$url = $array['channel']['link'];
-
-		// var_dump($array['channel']['title']);
-		// die();
-		// $title = $_POST['title'];
-		// $content = $_POST['content'];
-		// $url = $_POST['url'];
-		$res = $on->sendAfter($title, $content, $url, $sendaft, $lang = 'en');
-
-		$book = json_decode($res, true);
-		echo $book['recipients'];
-		
+	$result = ["schedule" => "Notification ".($_POST['status'] == "start" ? "scheduled for ". $_POST['time']. " everyday" : "schedule stopped")];
+	echo json_encode($result);
 }

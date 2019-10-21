@@ -99,8 +99,13 @@ $(function () {
 						success: function(result) {
 							$(':input[type="submit"]').prop('disabled', false);
 							$('.hidespin').css('display', 'none');
-							$(':input[type="submit"]').fadeIn().html('Send Notification');
-							$('#result').html("Notification sent to <strong>"+result+"</strong> devices!").fadeIn();
+                            $(':input[type="submit"]').fadeIn().html('Send Notification');
+                            // if(result.schedule){
+                            //     $('#result').html("Notification scheduled successfully").fadeIn();                                
+                            // }else{
+                                
+                            // }
+                            $('#result').html("Notification sent to <strong>"+result+"</strong> devices!").fadeIn();
 						}
 						
 					});
