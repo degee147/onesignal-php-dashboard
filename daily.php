@@ -232,7 +232,6 @@ function runschedule()
             $sent_posts = $schedule['sent_posts'];
         }
 
-
         foreach ($feed->get_items() as $item) {
             // var_dump($item->get_date());
 
