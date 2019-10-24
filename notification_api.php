@@ -63,17 +63,19 @@ if (isset($_POST['sendafter'])) {
 if (isset($_POST['dailyschedule'])) { //here we save to file
 
 	$schedule = [];
-	if(file_get_contents('./schedule.json', FILE_USE_INCLUDE_PATH)){
+	if (file_get_contents('./schedule.json', FILE_USE_INCLUDE_PATH)) {
 		$file = file_get_contents('./schedule.json', FILE_USE_INCLUDE_PATH);
 		$schedule = json_decode($file, true);
 	}
 
 	$schedule['feed'] = $_POST['feed'];
-	$schedule['time'] = $_POST['time'];
+	// $schedule['time'] = $_POST['time'];
+	$schedule['time_from'] = $_POST['time_from'];
+	$schedule['time_to'] = $_POST['time_to'];
 	$schedule['status'] = $_POST['status'];
 
-	file_put_contents('./schedule.json', json_encode($schedule));	
+	file_put_contents('./schedule.json', json_encode($schedule));
 
-	$result = ["schedule" => "Notification ".($_POST['status'] == "start" ? "scheduled for ". $_POST['time']. " everyday" : "schedule stopped")];
+	$result = ["schedule" => "Notification " . ($_POST['status'] == "start" ? "scheduled between " . $schedule['time_from'] . " to " . $schedule['time_to'] . " everyday" : "schedule stopped")];
 	echo json_encode($result);
 }

@@ -235,16 +235,24 @@ function runschedule()
 
         foreach ($feed->get_items() as $item) {
             // var_dump($item->get_date());
-            
+
             if (!in_array($item->get_date(), $sent_posts)) {
                 $sent_posts[] = $item->get_date();
 
                 $title = $item->get_title();
                 $content = !empty($item->get_description()) ? $item->get_description() : "";
                 $url = !empty($item->get_link()) ? $item->get_link() : "";
-                $chrome_web_icon = !empty(getImage($item)) ? getImage($item) : "";;
+                $chrome_web_icon = !empty(getImage($item)) ? getImage($item) : "";
 
-                $res = $on->sendDaily($title, $content, $url, $schedule['time'], $chrome_web_icon);
+                $start = strtotime($schedule['time_from']);
+                $end =  strtotime($schedule['time_to']);
+
+                // $randomDate = date("Y-m-d H:i:s", rand($start, $end));
+                $randomTime = date("h:i A", rand($start, $end));
+
+                // die($randomTime);
+
+                $res = $on->sendDaily($title, $content, $url, $randomTime, $chrome_web_icon);
                 break;
             }
         }

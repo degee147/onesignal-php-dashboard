@@ -1187,3 +1187,9 @@ Stack trace:
 #0 Command line code(1): runschedule()
 #1 {main}
   thrown in D:\cybernek\develop\web\onesignal-pnp\daily.php on line 237
+[24-Oct-2019 09:40:45 UTC] PHP Notice:  Undefined index: time in D:\cybernek\develop\web\onesignal-pnp\notification_api.php on line 79
+[24-Oct-2019 09:40:45 UTC] PHP Stack trace:
+[24-Oct-2019 09:40:45 UTC] PHP   1. {main}() D:\cybernek\develop\web\onesignal-pnp\notification_api.php:0
+[24-Oct-2019 09:42:39 UTC] PHP Notice:  Undefined index: time in D:\cybernek\develop\web\onesignal-pnp\notification_api.php on line 79
+[24-Oct-2019 09:42:39 UTC] PHP Stack trace:
+[24-Oct-2019 09:42:39 UTC] PHP   1. {main}() D:\cybernek\develop\web\onesignal-pnp\notification_api.php:0
